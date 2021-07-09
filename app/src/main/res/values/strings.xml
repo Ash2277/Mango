@@ -1,15 +1,41 @@
 <resources>
-    <string name="app_name">grocery_app</string>
-    <string name="title_activity_items_registeration_fruits">ItemsRegisterationFruits</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="app_name">FourSite</string>
+    <string name="search_locations">Search Locations</string>
+    <string name="search_glyph_text">No location results to display</string>
+    <string name="title_activity_full_map">Map</string>
+    <string name="title_activity_details">Location Details</string>
+    <string name="details_review_count_format" translatable="false">(%d)</string>
+    <string name="current_location_label">Current Location</string>
+    <string name="initial">1</string>
+    <string name="enable">Enable</string>
+    <string name="close">Close</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="retry">Retry</string>
+    <plurals name="miles">
+        <item quantity="one">%s mile</item>
+        <item quantity="zero">You are here</item>
+        <item quantity="other">%s miles</item>
+    </plurals>
 
-    <!-- STRINGS USED FOR SHOPPING ORDERS -->
-    <string name="initial">0</string>
+    <plurals name="feet">
+        <item quantity="one">%s foot</item>
+        <item quantity="zero">You are here</item>
+        <item quantity="other">%s feet</item>
+    </plurals>
+
+    <!-- favorite messages -->
+    <string name="added_favorite">Added favorite</string>
+    <string name="removed_favorite">Removed favorite</string>
+
+    <!-- error messages -->
+    <string name="error_location_data">Location data was invalid can not navigate to details</string>
+    <string name="request_failed_main">Unable to retrieve locations</string>
+    <string name="request_failed_details">Unable to retrieve location details</string>
+    <string name="error_location_permission_denied">Location permission denied, enable?</string>
+    <string name="error_closing_no_location_permission">This application requires the use of location services.  Without this permission the application will not function properly and will close.</string>
+
+    <!-- content descriptions -->
+    <string name="location_item_icon_description">Location category icon</string>
+    <string name="search_glyph_description">Location glyph</string>
+    <string name="details_favorite_icon_description">Location is a favorite</string>
 </resources>

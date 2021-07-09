@@ -23,8 +23,10 @@
             android:paddingVertical="70dp"
             android:paddingRight="10dp"
             android:text="Enter Your Details."
-            android:textColor="@color/white"
-            android:textSize="55sp" />
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="55sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
         android:layout_width="match_parent"
@@ -107,7 +109,7 @@
             android:background="@drawable/button_bg1"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="CLICK TO GET LOCATION:"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:backgroundTint="#F8A20D" />
 
         <TextView
