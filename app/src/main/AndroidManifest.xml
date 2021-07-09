@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.grocery_app">
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,16 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Grocery_app">
+        <activity
+            android:name=".ItemsRegisterationFruits"
+            android:label="@string/title_activity_items_registeration_fruits"
+            android:theme="@style/Theme.Grocery_app.NoActionBar"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI"/>
-
-        <!-- ACTIVITIES -->
+            android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI" /> <!-- ACTIVITIES -->
         <activity
             android:name=".LogoScreen"
             android:screenOrientation="portrait" />
-        <activity android:name=".BuyingFruits"/>
+        <activity android:name=".BuyingFruits" />
         <activity android:name=".CustomerBuying" />
         <activity android:name=".RetailerSignup" />
         <activity
@@ -31,4 +35,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
