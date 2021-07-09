@@ -13,20 +13,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:text="Enter Your Details"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:background="@drawable/ic_launcher_background"
-        android:paddingVertical="70dp"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:layout_marginBottom="10dp"
-        android:gravity="center_horizontal" />
-    
-    <TextView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bckgrd"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:gravity="right"
+            android:paddingVertical="70dp"
+            android:paddingRight="10dp"
+            android:text="Enter Your Details."
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOP NAME:"
@@ -97,18 +97,18 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="10dp"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/bt_location"
-        android:text="CLICK TO GET LOCATION:"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:layout_marginHorizontal="30dp"
-        android:textColor="@color/white"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/button_bg1"
-        app:backgroundTint="#42a5f5"
-        />
+
+        <Button
+            android:id="@+id/bt_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_bg1"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="CLICK TO GET LOCATION:"
+            android:textColor="@color/white"
+            app:backgroundTint="#F8A20D" />
 
         <TextView
         android:layout_width="match_parent"
@@ -125,24 +125,23 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Items you sell"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:layout_marginHorizontal="30dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/button_bg1"
-            app:backgroundTint="#42a5f5"
-            />
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="Items you sell:"
+            app:backgroundTint="#F8862E" />
 
         <Button
             android:id="@+id/sign_up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:layout_marginBottom="25dp"
             android:background="@drawable/button_bg1"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="SIGN IN"
-            app:backgroundTint="#42a5f5" />
+            app:backgroundTint="#FF8323" />
 
 
 
