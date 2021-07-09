@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Grocery_app">
-        <activity android:name=".BuyingFruits"></activity>
-        <activity android:name=".CustomerBuying" />
-        <activity android:name=".RetailerRegistration" /> <!-- ACTIVITIES -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI"/>
+
+        <!-- ACTIVITIES -->
         <activity
             android:name=".LogoScreen"
             android:screenOrientation="portrait" />
+        <activity android:name=".BuyingFruits"/>
+        <activity android:name=".CustomerBuying" />
+        <activity android:name=".RetailerRegistration" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
