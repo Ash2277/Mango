@@ -9,12 +9,11 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="120dp"
         android:text="Enter Your Details"
-        android:background="@drawable/ic_launcher_background"
-        android:paddingVertical="70dp"
+        android:paddingVertical="40dp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:fontFamily="casual"
         android:layout_marginBottom="10dp"
@@ -24,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOP NAME:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -38,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="USER NAME:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -51,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EMAIL:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -64,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PHONE NUMBER:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -77,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOP NAME:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -91,6 +95,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_location"
         android:text="CLICK TO GET LOCATION:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/white"
         android:layout_marginBottom="10dp"
@@ -102,6 +107,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/text_location"
         android:text="LOCATION:"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         android:layout_marginBottom="20dp"
@@ -111,6 +117,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/sign_up"
         android:text="SIGN IN"
+        android:fontFamily="casual"
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/button_bg1"

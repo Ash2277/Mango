@@ -28,6 +28,7 @@
             android:layout_gravity="left"
             android:padding="20dp"
             android:text="Fruits"
+            android:fontFamily="casual"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -64,6 +65,7 @@
             android:layout_gravity="left"
             android:padding="20dp"
             android:text="Vegetables"
+            android:fontFamily="casual"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -106,6 +108,7 @@
             android:layout_gravity="left"
             android:padding="20dp"
             android:text="Greens"
+            android:fontFamily="casual"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -133,6 +136,7 @@
             android:layout_height="83dp"
             android:layout_gravity="top"
             android:padding="20dp"
+            android:fontFamily="casual"
             android:text="Rice"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -153,6 +157,7 @@
         android:layout_width="161dp"
         android:layout_height="81dp"
         android:text="BUYING"
+        android:fontFamily="casual"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
