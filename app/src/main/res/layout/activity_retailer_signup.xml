@@ -116,4 +116,10 @@
         android:background="@drawable/button_bg1"
         app:backgroundTint="#42a5f5"
         />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>

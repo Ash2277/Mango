@@ -15,13 +15,14 @@
             android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI"/>
 
         <!-- ACTIVITIES -->
+        <activity
+            android:name=".LogoScreen"
+            android:screenOrientation="portrait" />
         <activity android:name=".BuyingFruits"/>
-        <activity android:name=".Homepage"/>
-        <activity android:name=".Login"/>
         <activity android:name=".CustomerBuying" />
         <activity android:name=".RetailerSignup" />
         <activity
-            android:name=".LogoScreen"
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
