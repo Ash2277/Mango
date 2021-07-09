@@ -10,7 +10,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 public class Homepage extends AppCompatActivity
 {
-    Button b;
+    Button b,b1;
 
 
     @Override
@@ -20,12 +20,19 @@ public class Homepage extends AppCompatActivity
         setContentView(R.layout.activity_homepage);
 
         b = findViewById(R.id.log);
+        b1 = findViewById(R.id.button2);
         b.setOnClickListener(v -> click());
+        b1.setOnClickListener(v -> click1());
     }
 
     public void click()
     {
         Intent i = new Intent(Homepage.this, Login.class);
+        startActivity(i);
+    }
+    public void click1()
+    {
+        Intent i = new Intent(Homepage.this, RetailerSignup.class);
         startActivity(i);
     }
 
