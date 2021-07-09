@@ -14,7 +14,7 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -26,22 +26,36 @@
         android:text="get registered here!"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:backgroundTint="#E3812A"
+        app:backgroundTint="#D36F16"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Login to get the best user experience."
+        android:textColor="#3D3D40"
+        app:layout_constraintBottom_toTopOf="@+id/log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
+        app:backgroundTint="#D15E07"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.234" />
@@ -57,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/log"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintVertical_bias="0.191" />
 
     <Button
         android:id="@+id/store1"
@@ -65,11 +79,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="Store 1"
+        app:backgroundTint="#C8631F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.097" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <Button
         android:id="@+id/button7"
@@ -77,12 +92,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="Store 2"
+        app:backgroundTint="#BC5822"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/store1"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.173" />
 
     <Button
         android:id="@+id/button8"
@@ -90,6 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="store 3"
+        app:backgroundTint="#AC4806"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
