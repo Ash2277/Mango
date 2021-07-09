@@ -16,6 +16,8 @@
 
         <!-- ACTIVITIES -->
         <activity android:name=".BuyingFruits"/>
+        <activity android:name=".Homepage"/>
+        <activity android:name=".Login"/>
         <activity android:name=".CustomerBuying" />
         <activity android:name=".RetailerRegistration" />
         <activity
