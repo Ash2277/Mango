@@ -128,13 +128,13 @@
         android:layout_marginRight="30dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:backgroundTint="#C8631F"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/store2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/store2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
@@ -143,14 +143,14 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         app:backgroundTint="#BC5822"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/store3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/store1"
         />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/store3"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
@@ -162,7 +162,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/store2"
         app:layout_constraintVertical_chainStyle="packed"
         />
 

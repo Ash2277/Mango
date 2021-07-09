@@ -40,8 +40,13 @@
             android:name="com.pnuema.android.foursite.details.ui.DetailsActivity"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".BuyingFruits"/>
-        <activity android:name=".CustomerBuying" />
+        <activity android:name=".BuyingFruits1"/>
+        <activity android:name=".ContinueWithFruitOrder"/>
+        <activity android:name=".BuyingFruits2"/>
+        <activity android:name=".BuyingFruits3"/>
+        <activity android:name=".CustomerBuying1" />
+        <activity android:name=".CustomerBuying2" />
+        <activity android:name=".CustomerBuying3" />
         <activity android:name=".RetailerSignup" />
         <activity android:name=".Homepage"/>
         <activity android:name=".Login"/>

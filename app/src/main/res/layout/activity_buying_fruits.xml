@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BuyingFruits">
+    tools:context=".BuyingFruits1">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                     android:padding="20dp"
                     android:paddingLeft="20dp"
 
-                    android:text="" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button1p"
@@ -174,7 +174,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button2p"
@@ -251,7 +251,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button3p"
@@ -329,7 +329,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button4p"

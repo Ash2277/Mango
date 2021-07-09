@@ -3,15 +3,18 @@ package com.example.grocery_app;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BuyingVegetables extends AppCompatActivity
+public class BuyingFruits3 extends AppCompatActivity
 {
-    Button b1p, b1m, b2m, b2p, b3p, b3m, b4m, b4p, conf, back;
+    Button b1p, b1m, b2m, b2p, b3p, b3m, b4m, b4p;
+    ImageView conf, back;
     TextView t1, t2, t3, t4, pr1, pr2, pr3, pr4;
-    String s, sp1, sp2, sp3, sp4;
+    int cost;
+    String s = "0", sp1 = "0", sp2 = "0", sp3 = "0", sp4 = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,7 +38,7 @@ public class BuyingVegetables extends AppCompatActivity
         pr2 = (TextView) findViewById(R.id.textView2pr);
         pr3= (TextView) findViewById(R.id.textView3pr);
         pr4 = (TextView) findViewById(R.id.textView4pr);
-        conf = findViewById(R.id.button16);
+        conf = findViewById(R.id.imageView6);
         back = findViewById(R.id.button17);
 
         b1p.setOnClickListener(v -> addt1());
@@ -51,39 +54,51 @@ public class BuyingVegetables extends AppCompatActivity
     }
 
     public void addt1()
+{
+    s =(String) t1.getText();
+    if(Integer.parseInt(s) <= 17)
     {
-        s =(String) t1.getText();
         s = Integer.toString(1 + Integer.parseInt(s));
         t1.setText(s);
-        sp1 = Integer.toString(31 * Integer.parseInt(s));
+        sp1 = Integer.toString(55 * Integer.parseInt(s));
         pr1.setText("Rs. ".concat(sp1));
     }
+}
 
     public void addt2()
     {
         s =(String) t2.getText();
-        s = Integer.toString( Integer.parseInt(s) + 1);
-        t2.setText(s);
-        sp2 = Integer.toString(10 * Integer.parseInt(s));
-        pr2.setText("Rs. ".concat(sp2));
+        if(Integer.parseInt(s) <= 7)
+        {
+            s = Integer.toString( Integer.parseInt(s) + 1);
+            t2.setText(s);
+            sp2 = Integer.toString(54 * Integer.parseInt(s));
+            pr2.setText("Rs. ".concat(sp2));
+        }
     }
 
     public void addt3()
     {
         s =(String) t3.getText();
-        s = Integer.toString(1 + Integer.parseInt(s));
-        t3.setText(s);
-        sp3 = Integer.toString(36 * Integer.parseInt(s));
-        pr3.setText("Rs. ".concat(sp3));
+        if(Integer.parseInt(s) <= 17)
+        {
+            s = Integer.toString(1 + Integer.parseInt(s));
+            t3.setText(s);
+            sp3 = Integer.toString(20 * Integer.parseInt(s));
+            pr3.setText("Rs. ".concat(sp3));
+        }
     }
 
     public void addt4()
     {
         s =(String) t4.getText();
-        s = Integer.toString(1 + Integer.parseInt(s));
-        t4.setText(s);
-        sp4 = Integer.toString(24 * Integer.parseInt(s));
-        pr4.setText("Rs. ".concat(sp4));
+        if(Integer.parseInt(s) <= 7)
+        {
+            s = Integer.toString(1 + Integer.parseInt(s));
+            t4.setText(s);
+            sp4 = Integer.toString(80 * Integer.parseInt(s));
+            pr4.setText("Rs. ".concat(sp4));
+        }
     }
 
     public void subt1()
@@ -93,7 +108,7 @@ public class BuyingVegetables extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t1.setText(s);
-            sp1 = Integer.toString(31 * Integer.parseInt(s));
+            sp1 = Integer.toString(55 * Integer.parseInt(s));
             pr1.setText("Rs. ".concat(sp1));
         }
     }
@@ -105,7 +120,7 @@ public class BuyingVegetables extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t2.setText(s);
-            sp2 = Integer.toString(10 * Integer.parseInt(s));
+            sp2 = Integer.toString(54 * Integer.parseInt(s));
             pr2.setText("Rs. ".concat(sp2));
         }
     }
@@ -117,7 +132,7 @@ public class BuyingVegetables extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t3.setText(s);
-            sp3 = Integer.toString(36 * Integer.parseInt(s));
+            sp3 = Integer.toString(20 * Integer.parseInt(s));
             pr3.setText("Rs. ".concat(sp3));
         }
     }
@@ -129,21 +144,29 @@ public class BuyingVegetables extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t4.setText(s);
-            sp4 = Integer.toString(24 * Integer.parseInt(s));
+            sp4 = Integer.toString(80 * Integer.parseInt(s));
             pr4.setText("Rs. ".concat(sp4));
         }
     }
 
     public void ret()
     {
-        Intent i = new Intent(BuyingVegetables.this, CustomerBuying1.class);
+        Intent i = new Intent(BuyingFruits3.this, CustomerBuying3.class);
         startActivity(i);
         finish();
     }
 
     public void cont()
     {
-
+        Intent i = new Intent(BuyingFruits3.this, ContinueWithFruitOrder.class);
+        cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
+        i.putExtra("cost", cost);
+        i.putExtra("apples", t1.getText());
+        i.putExtra("mangoes", t2.getText());
+        i.putExtra("oranges", t3.getText());
+        i.putExtra("watermelons", t4.getText());
+        startActivity(i);
+        finish();
     }
 
     @Override
