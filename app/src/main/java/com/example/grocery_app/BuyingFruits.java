@@ -14,7 +14,7 @@ public class BuyingFruits extends AppCompatActivity
     ImageView conf, back;
     TextView t1, t2, t3, t4, pr1, pr2, pr3, pr4;
     int cost;
-    String s, sp1, sp2, sp3, sp4;
+    String s = "0", sp1 = "0", sp2 = "0", sp3 = "0", sp4 = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -146,17 +146,13 @@ public class BuyingFruits extends AppCompatActivity
 
     public void cont()
     {
-        int c = 0, l = 0;
-        cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
-
         Intent i = new Intent(BuyingFruits.this, ContinueWithFruitOrder.class);
+        cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
         i.putExtra("cost", cost);
-        /*
         i.putExtra("apples", t1.getText());
         i.putExtra("mangoes", t2.getText());
         i.putExtra("oranges", t3.getText());
         i.putExtra("watermelons", t4.getText());
-         */
         startActivity(i);
         finish();
     }
