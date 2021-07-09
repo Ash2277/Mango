@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".RetailerSignup">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="200dp"
         android:text="Enter Your Details"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:background="@drawable/ic_launcher_background"
         android:paddingVertical="70dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:fontFamily="casual"
         android:layout_marginBottom="10dp"
         android:gravity="center_horizontal" />
     
@@ -24,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOP NAME:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -38,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="USER NAME:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -51,6 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EMAIL:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -64,6 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PHONE NUMBER:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -77,6 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOP NAME:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
@@ -91,35 +102,50 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_location"
         android:text="CLICK TO GET LOCATION:"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/white"
         android:layout_marginBottom="10dp"
         android:background="@drawable/button_bg1"
         app:backgroundTint="#42a5f5"
         />
-    <TextView
+
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/text_location"
         android:text="LOCATION:"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         android:layout_marginBottom="20dp"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/sign_up"
-        android:text="SIGN IN"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_bg1"
-        app:backgroundTint="#42a5f5"
-        />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-</LinearLayout>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Items you sell"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button_bg1"
+            app:backgroundTint="#42a5f5"
+            />
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button_bg1"
+            android:text="SIGN IN"
+            app:backgroundTint="#42a5f5" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

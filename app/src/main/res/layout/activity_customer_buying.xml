@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button"
-        android:layout_width="180dp"
+        android:layout_width="170dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
         app:cardBackgroundColor="#ffffff"
@@ -26,17 +26,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="20dp"
             android:text="Fruits"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="170dp"
-            android:layout_height="270dp"
+            android:layout_width="183dp"
+            android:layout_height="259dp"
             android:layout_gravity="right"
             android:clickable="true"
             android:src="@drawable/fruits" />
@@ -46,12 +46,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button3"
-        android:layout_width="180dp"
+        android:layout_width="170dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
         app:cardBackgroundColor="#ffffff"
-        app:cardElevation="5dp"
         app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -63,9 +63,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="17dp"
             android:text="Vegetables"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -82,12 +82,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button4"
-        android:layout_width="180dp"
+        android:layout_width="170dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
         app:cardBackgroundColor="#ffffff"
-        app:cardElevation="5dp"
         app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.052"
@@ -106,9 +106,9 @@
             android:layout_width="wrap_content"
             android:layout_height="108dp"
             android:layout_gravity="left"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="20dp"
             android:text="Greens"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -119,7 +119,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/button6"
         android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_height="170dp"
         android:layout_gravity="center"
         app:cardBackgroundColor="#ffffff"
         app:cardCornerRadius="15dp"
@@ -135,9 +135,9 @@
             android:layout_width="127dp"
             android:layout_height="83dp"
             android:layout_gravity="top"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="20dp"
             android:text="Rice"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
