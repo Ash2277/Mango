@@ -33,16 +33,16 @@
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 android:text="Buy Fruits"
                 android:textColor="#0E0E25"
                 android:textSize="25dp"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/button17"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.038" />
+                app:layout_constraintVertical_bias="0.034" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/apples"
@@ -50,9 +50,9 @@
                 android:layout_height="180dp"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                app:cardElevation="5dp"
                 app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
                 app:layout_constraintBottom_toTopOf="@+id/mango"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.466"
@@ -64,9 +64,9 @@
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:padding="10dp"
                     android:text="Apples"
-                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -80,13 +80,13 @@
 
                 <TextView
                     android:id="@+id/textView1t"
-                    android:paddingLeft="20dp"
-                    android:padding="20dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:padding="20dp"
+                    android:paddingLeft="20dp"
 
                     android:text="@string/initial" />
 
@@ -112,11 +112,11 @@
 
                 <TextView
                     android:id="@+id/textView1pr"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="-20dp"
-                    android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-20dp"
                     android:text="" />
 
 
@@ -354,29 +354,30 @@
 
             </androidx.cardview.widget.CardView>
 
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CONFIRM"
-                app:backgroundTint="#C8631F"
-                app:layout_constraintBottom_toTopOf="@+id/apples"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView12"
-                app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <ImageView
                 android:id="@+id/button17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:text="BACK"
-                app:backgroundTint="#C8631F"
+                android:layout_width="37dp"
+                android:layout_height="32dp"
                 app:layout_constraintBottom_toTopOf="@+id/apples"
                 app:layout_constraintEnd_toStartOf="@+id/textView12"
+                app:layout_constraintHorizontal_bias="0.23"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.678"
+                app:srcCompat="@drawable/arrowicon" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toTopOf="@+id/apples"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.765"
+                app:layout_constraintStart_toEndOf="@+id/textView12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.714"
+                app:srcCompat="@drawable/carticon" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
