@@ -8,11 +8,6 @@ import android.widget.Button;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.gms.location.places.GeoDataClient;
-import com.google.android.gms.location.places.PlaceDetectionClient;
-import com.google.android.gms.location.places.Places;
-
 public class Homepage extends AppCompatActivity
 {
     Button b;
