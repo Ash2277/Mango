@@ -10,7 +10,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 public class Homepage extends AppCompatActivity
 {
-    Button b,b1;
+    Button b, b1, s1;
 
 
     @Override
@@ -21,8 +21,10 @@ public class Homepage extends AppCompatActivity
 
         b = findViewById(R.id.log);
         b1 = findViewById(R.id.button2);
+        s1 = findViewById(R.id.store1);
         b.setOnClickListener(v -> click());
         b1.setOnClickListener(v -> click1());
+        s1.setOnClickListener(v -> click2());
     }
 
     public void click()
@@ -35,5 +37,9 @@ public class Homepage extends AppCompatActivity
         Intent i = new Intent(Homepage.this, RetailerSignup.class);
         startActivity(i);
     }
-
+    public void click2()
+    {
+        Intent i = new Intent(Homepage.this, CustomerBuying.class);
+        startActivity(i);
+    }
 }

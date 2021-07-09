@@ -33,6 +33,7 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:clickable="true"
             android:id="@+id/imageView9"
             android:layout_width="191dp"
             android:layout_height="270dp"
