@@ -155,8 +155,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="329dp"
-        android:layout_height="78dp"
+        android:layout_width="325dp"
+        android:layout_height="122dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center_horizontal"
         android:text="Let your customers know your products!"
