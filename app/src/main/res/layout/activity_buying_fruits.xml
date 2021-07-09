@@ -33,10 +33,10 @@
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fruits buying"
-                android:fontFamily="casual"
+                android:text="Buy Fruits"
                 android:textColor="#0E0E25"
                 android:textSize="25dp"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -66,7 +66,7 @@
                     android:layout_gravity="left"
                     android:padding="20dp"
                     android:text="Apples"
-                    android:fontFamily="casual"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -77,6 +77,37 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="right"
                     android:src="@drawable/apple" />
+
+                <TextView
+                    android:id="@+id/textView1t"
+                    android:paddingLeft="20dp"
+                    android:padding="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button1p"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/button1m"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-" />
+
 
             </androidx.cardview.widget.CardView>
 
@@ -101,7 +132,7 @@
                     android:layout_gravity="left"
                     android:padding="20dp"
                     android:text="Mangoes"
-                    android:fontFamily="casual"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -112,6 +143,36 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="right"
                     android:src="@drawable/mango" />
+
+                <TextView
+                    android:id="@+id/textView2t"
+                    android:paddingLeft="20dp"
+                    android:padding="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button2p"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/button2m"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-" />
 
             </androidx.cardview.widget.CardView>
 
@@ -137,7 +198,7 @@
                     android:layout_gravity="left"
                     android:padding="20dp"
                     android:text="Oranges"
-                    android:fontFamily="casual"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -148,6 +209,36 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="right"
                     android:src="@drawable/orange" />
+
+                <TextView
+                    android:id="@+id/textView3t"
+                    android:paddingLeft="20dp"
+                    android:padding="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button3p"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/button3m"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-" />
 
             </androidx.cardview.widget.CardView>
 
@@ -174,8 +265,9 @@
                     android:layout_gravity="left"
                     android:padding="20dp"
                     android:text="Watermelons"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -185,7 +277,59 @@
                     android:layout_gravity="right"
                     android:src="@drawable/melon" />
 
+                <TextView
+                    android:id="@+id/textView4t"
+                    android:paddingLeft="20dp"
+                    android:padding="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button4p"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/button4m"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-" />
+
             </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONFIRM"
+                app:layout_constraintBottom_toTopOf="@+id/apples"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView12"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="BACK"
+                app:layout_constraintBottom_toTopOf="@+id/apples"
+                app:layout_constraintEnd_toStartOf="@+id/textView12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
