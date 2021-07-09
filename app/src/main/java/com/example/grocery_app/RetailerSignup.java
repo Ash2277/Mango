@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class RetailerSignup extends AppCompatActivity {
-    Button btLocation,btsignup;
+    Button btLocation,btsignup, items;
     TextView textView;
     FusedLocationProviderClient fusedLocationProviderClient;
     int LOCATION_REQUEST_CODE = 10001;
@@ -45,6 +45,8 @@ public class RetailerSignup extends AppCompatActivity {
         btLocation = findViewById(R.id.bt_location);
         textView = findViewById(R.id.text_location);
         btsignup = findViewById(R.id.sign_up);
+        items = findViewById(R.id.button5);
+        items.setOnClickListener(v -> choose());
 //
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 //
@@ -71,6 +73,13 @@ public class RetailerSignup extends AppCompatActivity {
 //
 //            }
 //        });
+    }
+
+
+    public void choose()
+    {
+        Intent intent = new Intent(this, ItemsRegistration.class);
+        startActivity(intent);
     }
 
     private void openhomepage() {

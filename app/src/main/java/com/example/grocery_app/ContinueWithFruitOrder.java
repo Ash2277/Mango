@@ -17,7 +17,9 @@ public class ContinueWithFruitOrder extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_continue_with_fruit_order);
 
+
         int cost = getIntent().getExtras().getInt("cost");
+
         String ap = getIntent().getExtras().getString("apples");
         String or = getIntent().getExtras().getString("oranges");
         String man = getIntent().getExtras().getString("mangoes");
@@ -32,6 +34,8 @@ public class ContinueWithFruitOrder extends AppCompatActivity
         tr3 = (TextView) findViewById(R.id.textView17);
         tr4 = (TextView) findViewById(R.id.textView19);
         total = findViewById(R.id.textView10);
+
+        total.setText(Integer.toString(cost));
 
         if (Integer.parseInt(ap) > 0)
         {
@@ -53,6 +57,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
             tl4.setText("Watermelons");
             tr4.setText(wm);
         }
+
 
         proceed = findViewById(R.id.button10);
         re = findViewById(R.id.button9);
