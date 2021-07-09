@@ -129,7 +129,7 @@
             android:layout_marginBottom="25dp"
             android:background="@drawable/button_bg1"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-            android:text="Items you sell:"
+            android:text="Items you sell"
             app:backgroundTint="#F8862E" />
 
         <Button

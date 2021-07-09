@@ -155,20 +155,19 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="342dp"
-        android:layout_height="113dp"
+        android:layout_width="329dp"
+        android:layout_height="78dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center_horizontal"
-        android:text="Let your customers  know your products!"
+        android:text="Let your customers know your products!"
         android:textAlignment="center"
-        android:textColor="#E85217"
-        android:textSize="30sp"
+        android:textColor="#E3772F"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.124" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
