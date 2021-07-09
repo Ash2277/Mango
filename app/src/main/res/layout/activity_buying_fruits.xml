@@ -64,7 +64,7 @@
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:padding="20dp"
+                    android:padding="10dp"
                     android:text="Apples"
                     android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="0" />
+                    android:text="@string/initial" />
 
                 <Button
                     android:id="@+id/button1p"
@@ -110,6 +110,15 @@
                     android:text="-"
                     app:backgroundTint="#C8631F" />
 
+                <TextView
+                    android:id="@+id/textView1pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
 
             </androidx.cardview.widget.CardView>
 
@@ -130,14 +139,23 @@
 
                 <TextView
                     android:layout_width="189dp"
-                    android:layout_height="83dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:padding="20dp"
+                    android:padding="10dp"
                     android:text="Mangoes"
                     android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
 
                 <ImageView
                     android:id="@+id/imageview"
@@ -156,7 +174,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="0" />
+                    android:text="@string/initial" />
 
                 <Button
                     android:id="@+id/button2p"
@@ -198,14 +216,23 @@
 
                 <TextView
                     android:layout_width="165dp"
-                    android:layout_height="101dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:padding="20dp"
+                    android:padding="10dp"
                     android:text="Oranges"
                     android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
 
                 <ImageView
                     android:id="@+id/imageview1"
@@ -224,7 +251,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="0" />
+                    android:text="@string/initial" />
 
                 <Button
                     android:id="@+id/button3p"
@@ -267,14 +294,23 @@
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="212dp"
-                    android:layout_height="101dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:padding="20dp"
+                    android:padding="10dp"
                     android:text="Watermelons"
                     android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
 
                 <ImageView
                     android:id="@+id/imageview3"
@@ -293,7 +329,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="0" />
+                    android:text="@string/initial" />
 
                 <Button
                     android:id="@+id/button4p"
