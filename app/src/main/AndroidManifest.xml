@@ -11,13 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Grocery_app">
-        <activity android:name=".ItemsRegistrationVeggies"></activity>
-        <activity android:name=".BuyingVegetables" />
-        <activity android:name=".Cart" />
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI" /> <!-- ACTIVITIES -->
+            android:value="AIzaSyBbWbtKxt3HUELQ6R--wNRlO0Z9xmk7zDI" />
+
+        <!-- ACTIVITIES -->
+        <activity android:name=".BuyingVegetables"></activity>
+        <activity android:name=".ContinueWithFruitOrder" />
         <activity android:name=".BuyingFruits" />
         <activity android:name=".CustomerBuying" />
         <activity android:name=".RetailerSignup" />

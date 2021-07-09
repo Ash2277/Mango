@@ -5,12 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class BuyingFruits extends AppCompatActivity
 {
-    Button b1p, b1m, b2m, b2p, b3p, b3m, b4m, b4p, conf, back;
+    Button b1p, b1m, b2m, b2p, b3p, b3m, b4m, b4p;
+    ImageView conf, back;
     TextView t1, t2, t3, t4, pr1, pr2, pr3, pr4;
+    int cost;
     String s, sp1, sp2, sp3, sp4;
 
     @Override
@@ -35,7 +38,7 @@ public class BuyingFruits extends AppCompatActivity
         pr2 = (TextView) findViewById(R.id.textView2pr);
         pr3= (TextView) findViewById(R.id.textView3pr);
         pr4 = (TextView) findViewById(R.id.textView4pr);
-        conf = findViewById(R.id.button16);
+        conf = findViewById(R.id.imageView6);
         back = findViewById(R.id.button17);
 
         b1p.setOnClickListener(v -> addt1());
@@ -143,7 +146,19 @@ public class BuyingFruits extends AppCompatActivity
 
     public void cont()
     {
+        int c = 0, l = 0;
+        cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
 
+        Intent i = new Intent(BuyingFruits.this, ContinueWithFruitOrder.class);
+        i.putExtra("cost", cost);
+        /*
+        i.putExtra("apples", t1.getText());
+        i.putExtra("mangoes", t2.getText());
+        i.putExtra("oranges", t3.getText());
+        i.putExtra("watermelons", t4.getText());
+         */
+        startActivity(i);
+        finish();
     }
 
     @Override
