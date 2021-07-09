@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.R;
+
 public class Login extends AppCompatActivity
 {
     public static final String SHARED_PREFS_NAME = "sharedprefsp";

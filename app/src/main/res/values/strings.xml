@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FourSite</string>
+    <string name="app_name">MANGO</string>
     <string name="search_locations">Search Locations</string>
     <string name="search_glyph_text">No location results to display</string>
     <string name="title_activity_full_map">Map</string>

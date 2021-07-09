@@ -3,7 +3,7 @@ package com.pnuema.android.foursite.mainscreen.ui.viewholders
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.grocery_app.R
+import com.R
 import com.pnuema.android.foursite.glide.GlideApp
 import com.pnuema.android.foursite.mainscreen.ui.models.LocationResult
 import com.pnuema.android.foursite.persistance.FavoritesDatabase

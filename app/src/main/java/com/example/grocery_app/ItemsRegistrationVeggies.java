@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.R;
+
 public class ItemsRegistrationVeggies extends AppCompatActivity {
 
     @Override

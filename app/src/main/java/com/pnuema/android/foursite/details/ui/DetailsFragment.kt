@@ -19,8 +19,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.grocery_app.R
-import com.example.grocery_app.databinding.FragmentDetailsBinding
+import com.R
+import com.databinding.FragmentDetailsBinding
 import com.foursite.details.ui.DetailsClickHandlers
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.SupportMapFragment

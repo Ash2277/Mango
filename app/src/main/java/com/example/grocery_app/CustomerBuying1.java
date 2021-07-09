@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.R;
+
 public class CustomerBuying1 extends AppCompatActivity
 {
     ImageView v;

@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.example.grocery_app.R
+import com.R
 import com.google.android.gms.maps.model.LatLng
 import com.pnuema.android.foursite.details.viewmodels.DetailsViewModel
 import kotlinx.android.synthetic.main.activity_details.*

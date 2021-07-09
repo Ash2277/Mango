@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.R;
+
 public class BuyingFruits1 extends AppCompatActivity
 {
     Button b1p, b1m, b2m, b2p, b3p, b3m, b4m, b4p;

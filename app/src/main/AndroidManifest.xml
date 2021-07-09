@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.grocery_app">
+    package="com">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -40,18 +40,19 @@
             android:name="com.pnuema.android.foursite.details.ui.DetailsActivity"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".BuyingFruits1"/>
-        <activity android:name=".ContinueWithFruitOrder"/>
-        <activity android:name=".BuyingFruits2"/>
-        <activity android:name=".BuyingFruits3"/>
-        <activity android:name=".CustomerBuying1" />
-        <activity android:name=".CustomerBuying2" />
-        <activity android:name=".CustomerBuying3" />
-        <activity android:name=".RetailerSignup" />
-        <activity android:name=".Homepage"/>
-        <activity android:name=".Login"/>
+        <activity android:name=".example.grocery_app.BuyingFruits1"/>
+        <activity android:name=".example.grocery_app.ContinueWithFruitOrder"/>
+        <activity android:name=".example.grocery_app.BuyingFruits2"/>
+        <activity android:name=".example.grocery_app.BuyingFruits3"/>
+        <activity android:name=".example.grocery_app.CustomerBuying1" />
+        <activity android:name=".example.grocery_app.CustomerBuying2" />
+        <activity android:name=".example.grocery_app.CustomerBuying3" />
+        <activity android:name=".example.grocery_app.RetailerSignup" />
+        <activity android:name=".example.grocery_app.Homepage"/>
+        <activity android:name=".example.grocery_app.Login"/>
+        <activity android:name="com.pnuema.android.foursite.mainscreen.ui.MainActivity" />
         <activity
-            android:name=".LogoScreen"
+            android:name=".example.grocery_app.LogoScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

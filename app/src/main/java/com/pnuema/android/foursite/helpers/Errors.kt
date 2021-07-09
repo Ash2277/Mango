@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.view.setMargins
-import com.example.grocery_app.R
+import com.R
 import com.google.android.material.snackbar.Snackbar
 
 class Errors {

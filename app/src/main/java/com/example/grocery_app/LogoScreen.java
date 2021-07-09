@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.R;
+
 public class LogoScreen extends AppCompatActivity {
 
     private final int SPLASH_DISPLAY_LENGTH = 3000;

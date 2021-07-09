@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.R;
+
 public class ContinueWithFruitOrder extends AppCompatActivity
 {
     TextView tl1, tl2, tl3, tl4, tr1, tr2, tr3, tr4, total;
