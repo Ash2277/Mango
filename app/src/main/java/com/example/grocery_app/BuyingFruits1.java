@@ -159,6 +159,7 @@ public class BuyingFruits1 extends AppCompatActivity
     public void ret()
     {
         Intent i = new Intent(BuyingFruits1.this, CustomerBuying1.class);
+        i.putExtra("cost", Integer.toString(cost));
         startActivity(i);
         finish();
     }
