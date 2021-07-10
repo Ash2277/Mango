@@ -9,54 +9,63 @@
 
   <TextView
       android:id="@+id/textView20"
-      android:layout_width="336dp"
-      android:layout_height="82dp"
+      android:layout_width="387dp"
+      android:layout_height="95dp"
       android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+      android:gravity="center"
       android:text="Your Order Has Been Placed!"
       android:textColor="#0E0E25"
       android:textSize="25dp"
-      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintBottom_toTopOf="@+id/textView21"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintHorizontal_bias="0.458"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.048" />
+      app:layout_constraintTop_toTopOf="parent" />
 
   <TextView
       android:id="@+id/textView21"
-      android:layout_width="300dp"
-      android:layout_height="258dp"
+      android:layout_width="389dp"
+      android:layout_height="402dp"
+      android:background="@drawable/tybg"
       android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+      android:gravity="center"
+      android:padding="40dp"
       android:text="Thank you for shopping with us!"
+      android:textColor="#000000"
       android:textSize="40dp"
-      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintBottom_toTopOf="@+id/textView22"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintHorizontal_bias="0.409"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.386" />
+      app:layout_constraintTop_toBottomOf="@+id/textView20"
+      app:layout_constraintVertical_bias="0.452" />
 
   <TextView
       android:id="@+id/textView22"
-      android:layout_width="184dp"
-      android:layout_height="112dp"
+      android:layout_width="374dp"
+      android:layout_height="63dp"
+      android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+      android:gravity="center"
       android:text="Please contact retailer for payment details"
-      app:layout_constraintBottom_toBottomOf="parent"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/button7"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintHorizontal_bias="0.656"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.63" />
+      app:layout_constraintTop_toBottomOf="@+id/textView21"
+      app:layout_constraintVertical_bias="0.826" />
 
   <Button
       android:id="@+id/button7"
       android:layout_width="282dp"
       android:layout_height="50dp"
+      android:backgroundTint="#DD6718"
       android:text="Return To Home"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.498"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView22"
       app:layout_constraintVertical_bias="0.951" />
 </androidx.constraintlayout.widget.ConstraintLayout>
