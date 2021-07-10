@@ -16,7 +16,7 @@ public class BuyingVegetables1 extends AppCompatActivity
     ImageView conf, back;
     int cost;
     TextView t1, t2, t3, t4, pr1, pr2, pr3, pr4;
-    String s, sp1, sp2, sp3, sp4;
+    String s = "0", sp1 = "0", sp2 = "0", sp3 = "0", sp4 = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -42,7 +42,7 @@ public class BuyingVegetables1 extends AppCompatActivity
         pr2 = (TextView) findViewById(R.id.textView2pr);
         pr3= (TextView) findViewById(R.id.textView3pr);
         pr4 = (TextView) findViewById(R.id.textView4pr);
-        conf = findViewById(R.id.imageView6);
+        conf = findViewById(R.id.imageViewcart);
         back = findViewById(R.id.button17);
 
         b1p.setOnClickListener(v -> addt1());
