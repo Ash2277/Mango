@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), LifecycleOwner, LocationClickListener 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+
 
         handleGetLocation()
 
@@ -174,16 +174,16 @@ class MainActivity : AppCompatActivity(), LifecycleOwner, LocationClickListener 
                 searchView?.let { view ->
                     this.searchView = searchView
                     view.maxWidth = Integer.MAX_VALUE // to make sure it occupies the entire screen width as possible.
-                    view.queryHint = getString(R.string.search_locations)
+                    view.setQuery("Vegetables", true )
 
                     //watch for more user input before firing off the api requests to cut down on traffic
                     setupQueryInputWatcher(view)
                 }
             }
         }
-
         return true
     }
+
 
     @SuppressLint("CheckResult")
     private fun setupQueryInputWatcher(searchView: SearchView) {

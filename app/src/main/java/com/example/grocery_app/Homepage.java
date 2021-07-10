@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.R;
 import com.pnuema.android.foursite.mainscreen.ui.MainActivity;
 
+
 public class Homepage extends AppCompatActivity
 {
-    Button b, b1, s1, s2, s3;
-    ImageButton location;
+    Button b, b1, s1, s2, s3,location;
 
 
     @Override
@@ -25,7 +25,7 @@ public class Homepage extends AppCompatActivity
         s1 = findViewById(R.id.store1);
         s2 = findViewById(R.id.store2);
         s3 = findViewById(R.id.store3);
-        location = findViewById(R.id.imageButton);
+        location = findViewById(R.id.nearme);
 
         b.setOnClickListener(v -> click());
         b1.setOnClickListener(v -> click1());
