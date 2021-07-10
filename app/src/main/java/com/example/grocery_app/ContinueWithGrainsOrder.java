@@ -1,6 +1,7 @@
 package com.example.grocery_app;
 
 import android.content.Intent;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -9,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.R;
 
-public class ContinueWithFruitOrder extends AppCompatActivity
+public class ContinueWithGrainsOrder extends AppCompatActivity
 {
     TextView tl1, tl2, tl3, tl4, tr1, tr2, tr3, tr4, total;
     Button proceed, re;
@@ -24,10 +25,10 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 
         cost = getIntent().getExtras().getString("cost");
 
-        String ap = getIntent().getExtras().getString("apples");
-        String or = getIntent().getExtras().getString("oranges");
-        String man = getIntent().getExtras().getString("mangoes");
-        String wm = getIntent().getExtras().getString("watermelons");
+        String ap = getIntent().getExtras().getString("basmati");
+        String or = getIntent().getExtras().getString("brown");
+        String man = getIntent().getExtras().getString("masuri");
+        String wm = getIntent().getExtras().getString("sanakki");
 
         tl1 = (TextView) findViewById(R.id.textView7);
         tl2 = (TextView) findViewById(R.id.textView11);
@@ -71,7 +72,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 
     public void ret()
     {
-        Intent i = new Intent(ContinueWithFruitOrder.this, CustomerBuying1.class);
+        Intent i = new Intent(ContinueWithGrainsOrder.this, CustomerBuying1.class);
         i.putExtra("cost", cost);
         startActivity(i);
     }

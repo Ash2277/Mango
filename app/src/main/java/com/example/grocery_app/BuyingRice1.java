@@ -164,7 +164,7 @@ public class BuyingRice1 extends AppCompatActivity
 
     public void cont()
     {
-        Intent i = new Intent(BuyingRice1.this, ContinueWithFruitOrder.class);
+        Intent i = new Intent(BuyingRice1.this, ContinueWithRiceOrder.class);
         cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
         i.putExtra("cost", cost);
         i.putExtra("basmati", t1.getText());

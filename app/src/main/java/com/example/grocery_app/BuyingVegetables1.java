@@ -158,19 +158,20 @@ public class BuyingVegetables1 extends AppCompatActivity
     public void ret()
     {
         Intent i = new Intent(BuyingVegetables1.this, CustomerBuying1.class);
+        i.putExtra("cost", Integer.toString(cost));
         startActivity(i);
         finish();
     }
 
     public void cont()
     {
-        Intent i = new Intent(BuyingVegetables1.this, ContinueWithFruitOrder.class);
+        Intent i = new Intent(BuyingVegetables1.this, ContinueWithVegetableOrder.class);
         cost += Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
         i.putExtra("cost", Integer.toString(cost));
-        i.putExtra("basmati", t1.getText());
-        i.putExtra("brown", t2.getText());
-        i.putExtra("masuri", t3.getText());
-        i.putExtra("sanakki", t4.getText());
+        i.putExtra("potato", t1.getText());
+        i.putExtra("tomato", t2.getText());
+        i.putExtra("onion", t3.getText());
+        i.putExtra("beans", t4.getText());
         startActivity(i);
         finish();
     }
