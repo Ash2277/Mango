@@ -40,8 +40,8 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="208dp"
-        android:layout_height="66dp"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="Subtotal:"
         android:textColor="@color/black"
