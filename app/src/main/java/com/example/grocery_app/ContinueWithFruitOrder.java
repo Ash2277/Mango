@@ -13,6 +13,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 {
     TextView tl1, tl2, tl3, tl4, tr1, tr2, tr3, tr4, total;
     Button proceed, re;
+    int cost;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -21,7 +22,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
         setContentView(R.layout.activity_continue_with_fruit_order);
 
 
-        int cost = getIntent().getExtras().getInt("cost");
+        cost = getIntent().getExtras().getInt("cost");
 
         String ap = getIntent().getExtras().getString("apples");
         String or = getIntent().getExtras().getString("oranges");
@@ -71,7 +72,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
     public void ret()
     {
         Intent i = new Intent(ContinueWithFruitOrder.this, CustomerBuying1.class);
-        i.putExtra("cost", total.getText());
+        i.putExtra("cost", Integer.toString(cost));
         startActivity(i);
     }
 
