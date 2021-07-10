@@ -34,7 +34,7 @@ public class CustomerBuying1 extends AppCompatActivity
     }
     public void click2()
     {
-        Intent i = new Intent(CustomerBuying1.this, BuyingVegetables.class);
+        Intent i = new Intent(CustomerBuying1.this, BuyingVegetables1.class);
         startActivity(i);
     }
 }

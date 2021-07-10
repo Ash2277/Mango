@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".example.grocery_app.BuyingRice">
+    tools:context=".example.grocery_app.BuyingRice1">
 
   <RelativeLayout
       android:layout_width="match_parent"
@@ -67,6 +67,7 @@
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="10dp"
             android:text="Basmati"
+            android:gravity="center"
             android:textColor="#000000"
             android:textSize="23sp"
             android:textStyle="bold" />
@@ -143,6 +144,7 @@
             android:layout_gravity="left"
             android:padding="10dp"
             android:text="Brown"
+            android:gravity="center"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -220,6 +222,7 @@
             android:layout_gravity="left"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:padding="10dp"
+            android:gravity="center"
             android:text="Sona Masuri"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -298,6 +301,7 @@
             android:layout_gravity="left"
             android:padding="10dp"
             android:text="Sanakki"
+            android:gravity="center"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:textColor="#000000"
             android:textSize="20sp"
