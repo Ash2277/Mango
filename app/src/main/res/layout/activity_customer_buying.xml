@@ -23,8 +23,8 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="357dp"
-                android:layout_height="133dp"
+                android:layout_width="351dp"
+                android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 android:gravity="center"
@@ -38,6 +38,18 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.044" />
 
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Special offers!"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                >
+
+            </TextView>
 
             <HorizontalScrollView
                 android:layout_width="wrap_content"
