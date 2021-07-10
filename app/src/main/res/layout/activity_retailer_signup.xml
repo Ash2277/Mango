@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".RetailerSignup">
+    tools:context=".example.grocery_app.RetailerSignup">
 
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:background="@drawable/bckgrd"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:gravity="right"
-            android:paddingVertical="70dp"
+            android:paddingVertical="65dp"
             android:paddingRight="10dp"
             android:text="Enter Your Details."
             android:textColor="@color/black"
@@ -88,7 +88,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SHOP NAME:"
+        android:text="ADDRESS:"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
@@ -101,29 +101,6 @@
         />
 
         <Button
-            android:id="@+id/bt_location"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/button_bg1"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-            android:text="CLICK TO GET LOCATION:"
-            android:textColor="@color/black"
-            app:backgroundTint="#F8A20D" />
-
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_location"
-        android:text="LOCATION:"
-            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:layout_marginHorizontal="30dp"
-        android:textColor="@color/black"
-        android:layout_marginBottom="20dp"
-        />
-
-        <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -132,7 +109,8 @@
             android:background="@drawable/button_bg1"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="Items you sell"
-            app:backgroundTint="#F8862E" />
+            android:textSize="25dp"
+            app:backgroundTint="#E1481A" />
 
         <Button
             android:id="@+id/sign_up"

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 package="com">
 <uses-permission android:name="android.permission.INTERNET" />
@@ -30,8 +31,6 @@ package="com">
     <meta-data
         android:name="com.foursite.glide.GlideConfig"
         android:value="GlideModule" />
-
-
     <!-- ACTIVITIES -->
     <activity
         android:name="com.pnuema.android.foursite.fullmap.ui.FullMapActivity"
@@ -45,17 +44,21 @@ package="com">
         android:label="@string/title_activity_details"
         android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name=".example.grocery_app.BuyingFruits1" />
+    <activity android:name=".example.grocery_app.BuyingFlour1" />
+    <activity android:name=".example.grocery_app.BuyingGrains1" />
+    <activity android:name=".example.grocery_app.BuyingGreens1" />
     <activity android:name=".example.grocery_app.BuyingRice1" />
-    <activity android:name=".example.grocery_app.BuyingFlour" />
     <activity android:name=".example.grocery_app.ContinueWithFruitOrder" />
     <activity android:name=".example.grocery_app.BuyingVegetables1" />
     <activity android:name=".example.grocery_app.BuyingFruits2" />
     <activity android:name=".example.grocery_app.BuyingFruits3" />
+    <activity android:name=".example.grocery_app.SellingGreens" />
     <activity android:name=".example.grocery_app.CustomerBuying1" />
     <activity android:name=".example.grocery_app.CustomerBuying2" />
     <activity android:name=".example.grocery_app.CustomerBuying3" />
     <activity android:name=".example.grocery_app.RetailerSignup" />
     <activity android:name=".example.grocery_app.Homepage" />
+    <!--activity android:name=".example.grocery_app.spam" /-->
     <activity android:name=".example.grocery_app.Login" />
     <activity android:name=".example.grocery_app.ItemsRegistration" />
     <activity android:name=".example.grocery_app.ItemsRegisterationFruits" />
@@ -72,5 +75,4 @@ package="com">
     </activity>
 </application>
 </manifest>
-
 

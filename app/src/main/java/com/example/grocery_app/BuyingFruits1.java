@@ -167,7 +167,7 @@ public class BuyingFruits1 extends AppCompatActivity
     {
         Intent i = new Intent(BuyingFruits1.this, ContinueWithFruitOrder.class);
         cost += Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
-        i.putExtra("cost", cost);
+        i.putExtra("cost", Integer.toString(cost));
         i.putExtra("apples", t1.getText());
         i.putExtra("mangoes", t2.getText());
         i.putExtra("oranges", t3.getText());

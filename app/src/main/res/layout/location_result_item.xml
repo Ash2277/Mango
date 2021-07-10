@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/locationImage"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="71dp"
+        android:layout_height="109dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -64,13 +64,11 @@
         android:id="@+id/locationDistance"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="28dp"
         android:textColor="@color/tertiary_text"
         app:layout_constraintBottom_toBottomOf="@+id/locationImage"
         app:layout_constraintEnd_toStartOf="@+id/locationFavorite"
-        app:layout_constraintStart_toEndOf="@+id/locationImage"
-        app:layout_constraintTop_toBottomOf="@+id/locationCategory"
         tools:text="350 meters" />
 
     <CheckBox
