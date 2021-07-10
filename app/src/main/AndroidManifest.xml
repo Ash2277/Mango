@@ -50,6 +50,9 @@
         <activity android:name=".example.grocery_app.RetailerSignup" />
         <activity android:name=".example.grocery_app.Homepage"/>
         <activity android:name=".example.grocery_app.Login"/>
+        <activity android:name=".example.grocery_app.ItemsRegistration"/>
+        <activity android:name=".example.grocery_app.ItemsRegisterationFruits"/>
+        <activity android:name=".example.grocery_app.ItemsRegistrationVeggies"/>
         <activity android:name="com.pnuema.android.foursite.mainscreen.ui.MainActivity" />
         <activity
             android:name=".example.grocery_app.LogoScreen"

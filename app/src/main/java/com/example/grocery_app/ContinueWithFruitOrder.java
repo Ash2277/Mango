@@ -37,7 +37,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
         tr4 = (TextView) findViewById(R.id.textView19);
         total = findViewById(R.id.textView10);
 
-        total.setText(Integer.toString(cost));
+        total.setText("Subtotal: ".concat(Integer.toString(cost)));
 
         if (Integer.parseInt(ap) > 0)
         {
