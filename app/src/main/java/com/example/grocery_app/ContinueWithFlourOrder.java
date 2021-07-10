@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.R;
 
-public class ContinueWithGrainsOrder extends AppCompatActivity
+public class ContinueWithFlourOrder extends AppCompatActivity
 {
     TextView tl1, tl2, tl3, tl4, tr1, tr2, tr3, tr4, total;
     Button proceed, re;
@@ -24,10 +24,10 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
         cost = getIntent().getExtras().getString("cost");
 
-        String ap = getIntent().getExtras().getString("masoor");
-        String or = getIntent().getExtras().getString("moong");
-        String man = getIntent().getExtras().getString("toor");
-        String wm = getIntent().getExtras().getString("urud");
+        String ap = getIntent().getExtras().getString("wheat");
+        String or = getIntent().getExtras().getString("rice");
+        String man = getIntent().getExtras().getString("almond");
+        String wm = getIntent().getExtras().getString("all");
 
         tl1 = (TextView) findViewById(R.id.textView7);
         tl2 = (TextView) findViewById(R.id.textView11);
@@ -43,22 +43,22 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
         if (Integer.parseInt(ap) > 0)
         {
-            tl1.setText("Masoor Daal (kg)");
+            tl1.setText("Wheat (kg)");
             tr1.setText(ap);
         }
         if (Integer.parseInt(or) > 0)
         {
-            tl2.setText("Moong Daal (kg)");
+            tl2.setText("Rice (kg)");
             tr2.setText(or);
         }
         if (Integer.parseInt(man) > 0)
         {
-            tl3.setText("Toor Daal (kg)");
+            tl3.setText("Almond (kg)");
             tr3.setText(man);
         }
         if (Integer.parseInt(wm) > 0)
         {
-            tl4.setText("Urud Daal (kg)");
+            tl4.setText("All purposes (kg)");
             tr4.setText(wm);
         }
 
@@ -71,14 +71,14 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
     public void ret()
     {
-        Intent i = new Intent(ContinueWithGrainsOrder.this, CustomerBuying1.class);
+        Intent i = new Intent(ContinueWithFlourOrder.this, CustomerBuying1.class);
         i.putExtra("cost", cost);
         startActivity(i);
     }
 
     private void proc()
     {
-        Intent i = new Intent(ContinueWithGrainsOrder.this, ThankYouPage.class);
+        Intent i = new Intent(ContinueWithFlourOrder.this, ThankYouPage.class);
         startActivity(i);
         finish();
     }

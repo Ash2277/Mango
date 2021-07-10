@@ -64,7 +64,7 @@ public class CustomerBuying1 extends AppCompatActivity
     }
     public void click5()
     {
-        Intent i = new Intent(CustomerBuying1.this, BuyingGreens1.class);
+        Intent i = new Intent(CustomerBuying1.this, BuyingFlour1.class);
         i.putExtra("cost", cost);
         startActivity(i);
     }

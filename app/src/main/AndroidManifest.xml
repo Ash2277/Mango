@@ -49,6 +49,7 @@ package="com">
     <activity android:name=".example.grocery_app.BuyingGreens1" />
     <activity android:name=".example.grocery_app.BuyingRice1" />
     <activity android:name=".example.grocery_app.ContinueWithFruitOrder" />
+    <activity android:name=".example.grocery_app.ContinueWithFlourOrder" />
     <activity android:name=".example.grocery_app.ContinueWithVegetableOrder" />
     <activity android:name=".example.grocery_app.ContinueWithRiceOrder" />
     <activity android:name=".example.grocery_app.ContinueWithGreensOrder" />

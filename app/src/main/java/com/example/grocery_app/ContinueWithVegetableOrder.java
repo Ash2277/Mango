@@ -39,7 +39,7 @@ public class ContinueWithVegetableOrder extends AppCompatActivity
         tr4 = (TextView) findViewById(R.id.textView19);
         total = findViewById(R.id.textView10);
 
-        total.setText("Subtotal: ".concat(cost));
+        total.setText("Subtotal: Rs.".concat(cost));
 
         if (Integer.parseInt(ap) > 0)
         {
