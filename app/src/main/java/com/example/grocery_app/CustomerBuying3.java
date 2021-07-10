@@ -32,7 +32,7 @@ public class CustomerBuying3 extends AppCompatActivity
     }
     public void click2()
     {
-        Intent i = new Intent(CustomerBuying3.this, BuyingVegetables.class);
+        Intent i = new Intent(CustomerBuying3.this, BuyingVegetables1.class);
         startActivity(i);
     }
 }
