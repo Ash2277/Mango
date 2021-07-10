@@ -12,11 +12,11 @@ package="com">
 
 <application
     android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
+    android:icon="@mipmap/logo_main"
     android:label="@string/app_name"
     android:networkSecurityConfig="@xml/network_security_config"
     android:fullBackupContent="@xml/full_backup_config"
-    android:roundIcon="@mipmap/ic_launcher_round"
+    android:roundIcon="@mipmap/logo_main_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.Grocery_app"
     tools:ignore="GoogleAppIndexingWarning"
@@ -66,6 +66,7 @@ package="com">
     <activity android:name="com.pnuema.android.foursite.mainscreen.ui.MainActivity" />
     <activity
         android:name=".example.grocery_app.LogoScreen"
+        android:label="@string/app_name"
         android:screenOrientation="portrait">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
