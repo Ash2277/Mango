@@ -11,7 +11,7 @@ import com.R;
 
 public class CustomerBuying1 extends AppCompatActivity
 {
-    ImageView v;
+    ImageView v1, v2;
     TextView t;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,15 +19,22 @@ public class CustomerBuying1 extends AppCompatActivity
         setContentView(R.layout.activity_customer_buying);
 
         t = findViewById(R.id.textView3);
-        v = findViewById(R.id.imageView9);
+        v1 = findViewById(R.id.imageView9);
+        v2 = findViewById(R.id.imageView);
 
         t.setText("Om Sri Sai Fruits & Vegetables");
-        v.setOnClickListener(v -> click());
+        v1.setOnClickListener(v -> click());
+        v2.setOnClickListener(v -> click2());
     }
 
     public void click()
     {
         Intent i = new Intent(CustomerBuying1.this, BuyingFruits1.class);
+        startActivity(i);
+    }
+    public void click2()
+    {
+        Intent i = new Intent(CustomerBuying1.this, BuyingVegetables.class);
         startActivity(i);
     }
 }
