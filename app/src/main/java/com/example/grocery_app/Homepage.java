@@ -48,6 +48,7 @@ public class Homepage extends AppCompatActivity
     public void click2()
     {
         Intent i = new Intent(Homepage.this, CustomerBuying1.class);
+        i.putExtra("cost", "0");
         startActivity(i);
     }
     public void click3()

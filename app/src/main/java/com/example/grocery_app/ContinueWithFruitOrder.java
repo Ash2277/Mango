@@ -1,5 +1,6 @@
 package com.example.grocery_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -69,7 +70,9 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 
     public void ret()
     {
-
+        Intent i = new Intent(ContinueWithFruitOrder.this, CustomerBuying1.class);
+        i.putExtra("cost", total.getText());
+        startActivity(i);
     }
 
     private void proc()

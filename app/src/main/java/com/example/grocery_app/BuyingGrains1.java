@@ -2,8 +2,9 @@ package com.example.grocery_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.R;
 
-public class BuyingGrains extends AppCompatActivity {
+public class BuyingGrains1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

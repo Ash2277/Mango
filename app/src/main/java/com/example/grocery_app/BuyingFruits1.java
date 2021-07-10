@@ -24,6 +24,8 @@ public class BuyingFruits1 extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buying_fruits);
 
+        cost = Integer.parseInt(getIntent().getExtras().getString("cost"));
+
         b1m = findViewById(R.id.button1m);
         b1p = findViewById(R.id.button1p);
         b2m = findViewById(R.id.button2m);
@@ -164,7 +166,7 @@ public class BuyingFruits1 extends AppCompatActivity
     public void cont()
     {
         Intent i = new Intent(BuyingFruits1.this, ContinueWithFruitOrder.class);
-        cost = Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
+        cost += Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
         i.putExtra("cost", cost);
         i.putExtra("apples", t1.getText());
         i.putExtra("mangoes", t2.getText());
