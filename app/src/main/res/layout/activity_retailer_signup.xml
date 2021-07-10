@@ -23,9 +23,9 @@
             android:paddingVertical="65dp"
             android:paddingRight="10dp"
             android:text="Enter Your Details."
-            android:textColor="@color/black"
             android:textAlignment="center"
-            android:textSize="55sp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
             tools:ignore="RtlCompat" />
 
         <TextView

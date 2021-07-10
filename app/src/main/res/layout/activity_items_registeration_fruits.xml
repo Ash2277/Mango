@@ -13,7 +13,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
-            android:layout_height="900dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="-5dp"
             android:layout_marginLeft="-5dp"
-            android:layout_marginTop="-4dp"
+            android:layout_marginTop="-5dp"
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="6dp"
@@ -38,8 +38,8 @@
                 android:textColor="#0E0E25"
                 android:textSize="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button16"
+                app:layout_constraintStart_toEndOf="@+id/button17"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.018" />
 
@@ -260,7 +260,7 @@
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/grape"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.033"
                 app:layout_constraintStart_toStartOf="parent"
@@ -321,6 +321,293 @@
 
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grape"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/pine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/melon"
+                app:layout_constraintVertical_bias="0.165">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:padding="10dp"
+                    android:text="Apples"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/grapei"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/grape" />
+
+
+                <TextView
+                    android:id="@+id/textView5t"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:padding="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/initial" />
+
+                <TextView
+                    android:id="@+id/textView5pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView5q"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="-20dp"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:text="Enter the Amount in rupees for kg/Apple"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pine"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/kiwi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/grape"
+                app:layout_constraintVertical_bias="0.165">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:padding="10dp"
+                    android:text="Pineapples"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/pinei"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/pine" />
+
+
+                <TextView
+                    android:id="@+id/textView6t"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:padding="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/initial" />
+
+                <TextView
+                    android:id="@+id/textView6pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView6q"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="-20dp"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:text="Enter the Amount in rupees for kg/Apple"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kiwi"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/banana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pine"
+                app:layout_constraintVertical_bias="0.165">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:padding="10dp"
+                    android:text="Kiwi"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/kiwii"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/apple" />
+
+
+                <TextView
+                    android:id="@+id/textView7t"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:padding="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/initial" />
+
+                <TextView
+                    android:id="@+id/textView7pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView7q"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="-20dp"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:text="Enter the Amount in rupees for kg/Apple"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/banana"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kiwi"
+                app:layout_constraintVertical_bias="0.165">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:padding="10dp"
+                    android:text="Banana"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/bananai"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/banana" />
+
+
+                <TextView
+                    android:id="@+id/textView8t"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:padding="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/initial" />
+
+                <TextView
+                    android:id="@+id/textView8pr"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView8q"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="-20dp"
+                    android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                    android:text="Enter the Amount in rupees for kg/Apple"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
 
             <Button
                 android:id="@+id/button16"
