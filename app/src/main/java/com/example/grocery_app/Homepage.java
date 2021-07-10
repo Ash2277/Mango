@@ -11,7 +11,8 @@ import com.pnuema.android.foursite.mainscreen.ui.MainActivity;
 
 public class Homepage extends AppCompatActivity
 {
-    Button b, b1, s1, s2, s3,location;
+    Button b, b1, s1, s2, s3;
+    ImageButton location;
 
 
     @Override
