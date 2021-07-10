@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.R;
 
-public class ContinueWithFruitOrder extends AppCompatActivity
+public class ContinueWithGreensOrder extends AppCompatActivity
 {
     TextView tl1, tl2, tl3, tl4, tr1, tr2, tr3, tr4, total;
     Button proceed, re;
@@ -71,7 +71,7 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 
     public void ret()
     {
-        Intent i = new Intent(ContinueWithFruitOrder.this, CustomerBuying1.class);
+        Intent i = new Intent(ContinueWithGreensOrder.this, CustomerBuying1.class);
         i.putExtra("cost", cost);
         startActivity(i);
     }

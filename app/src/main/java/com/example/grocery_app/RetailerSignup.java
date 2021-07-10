@@ -43,8 +43,8 @@ public class RetailerSignup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retailer_signup);
 
-        btLocation = findViewById(R.id.bt_location);
-        textView = findViewById(R.id.text_location);
+        //btLocation = findViewById(R.id.bt_location);
+        //textView = findViewById(R.id.text_location);
         btsignup = findViewById(R.id.sign_up);
         items = findViewById(R.id.button5);
         items.setOnClickListener(v -> choose());

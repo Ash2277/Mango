@@ -61,11 +61,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="242dp"
-        android:layout_height="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:text="get registered here!"
+        android:text="get registered!"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:backgroundTint="#CC670E"
