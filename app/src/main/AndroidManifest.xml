@@ -62,6 +62,7 @@ package="com">
     <activity android:name=".example.grocery_app.CustomerBuying3" />
     <activity android:name=".example.grocery_app.RetailerSignup" />
     <activity android:name=".example.grocery_app.Homepage" />
+    <activity android:name=".example.grocery_app.ThankYouPage" />
     <!--activity android:name=".example.grocery_app.spam" /-->
     <activity android:name=".example.grocery_app.Login" />
     <activity android:name=".example.grocery_app.ItemsRegistration" />
