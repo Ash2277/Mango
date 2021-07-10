@@ -22,6 +22,7 @@ public class LogoScreen extends AppCompatActivity {
                 /* Create an Intent that will start the Menu-Activity. */
                 Intent mainIntent = new Intent(LogoScreen.this, Homepage.class);
                 LogoScreen.this.startActivity(mainIntent);
+                finish();
             }
         } ,SPLASH_DISPLAY_LENGTH);
 

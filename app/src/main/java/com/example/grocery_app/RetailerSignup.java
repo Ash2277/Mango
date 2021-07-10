@@ -17,6 +17,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +34,7 @@ import java.util.Locale;
 
 public class RetailerSignup extends AppCompatActivity {
     Button btLocation,btsignup, items;
+    EditText t1, t2, t3, t4, t5;
     TextView textView;
     FusedLocationProviderClient fusedLocationProviderClient;
     int LOCATION_REQUEST_CODE = 10001;
@@ -43,44 +45,40 @@ public class RetailerSignup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retailer_signup);
 
-        //btLocation = findViewById(R.id.bt_location);
-        //textView = findViewById(R.id.text_location);
+        t1 = findViewById(R.id.t1);
+        t2 = findViewById(R.id.t2);
+        t3 = findViewById(R.id.t3);
+        t4 = findViewById(R.id.t4);
+        t5 = findViewById(R.id.t5);
+
         btsignup = findViewById(R.id.sign_up);
         items = findViewById(R.id.button5);
         items.setOnClickListener(v -> choose());
-//
+
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
-//
+
         btsignup.setOnClickListener(v -> openhomepage());
-//
-//        btLocation.setOnClickListener(v -> {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-//                if (getApplicationContext().checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
-//                        == PackageManager.PERMISSION_GRANTED) {
-//                    fusedLocationProviderClient.getLastLocation()
-//                            .addOnSuccessListener(location -> {
-//
-//                                if (location != null) {
-//                                    Double lat = location.getLatitude();
-//                                    Double longt = location.getLongitude();
-//                                    textView.setText(lat + "," + longt);
-//                                    Toast.makeText(RetailerSignup.this, "Success", Toast.LENGTH_SHORT).show();
-//
-//                                }
-//                            });
-//                } else {
-//                    requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
-//                }
-//
-//            }
-//        });
     }
 
 
     public void choose()
     {
-        Intent intent = new Intent(this, ItemsRegistration.class);
-        startActivity(intent);
+
+        String s1 = t1.getText().toString(), s2 = t2.getText().toString();
+        String s3 = t3.getText().toString(), s4 = t4.getText().toString();
+        String s5 = t5.getText().toString();
+
+
+        if(s1.length() == 0 || s2.length() == 0 || s3.length() == 0 || s4.length() == 0 || s5.length() == 0)
+        {
+            Toast.makeText(RetailerSignup.this, "Fill it up, ye monstrous, mutton-headed moron!", Toast.LENGTH_LONG).show();
+        }
+        else
+        {
+            Intent intent = new Intent(this, ItemsRegistration.class);
+            startActivity(intent);
+        }
+
     }
 
     private void openhomepage() {

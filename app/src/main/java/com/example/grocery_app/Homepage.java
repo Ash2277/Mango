@@ -1,9 +1,12 @@
 package com.example.grocery_app;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import com.R;
 import com.pnuema.android.foursite.mainscreen.ui.MainActivity;
@@ -54,17 +57,34 @@ public class Homepage extends AppCompatActivity
     }
     public void click3()
     {
-        Intent i = new Intent(Homepage.this, CustomerBuying2.class);
+        Intent i = new Intent(Homepage.this, CustomerBuying1.class);
+        i.putExtra("cost", "0");
         startActivity(i);
     }
     public void click4()
     {
-        Intent i = new Intent(Homepage.this, CustomerBuying3.class);
+        Intent i = new Intent(Homepage.this, CustomerBuying1.class);
+        i.putExtra("cost", "0");
         startActivity(i);
     }
     public void click5()
     {
         Intent i = new Intent(Homepage.this, MainActivity.class);
+        i.putExtra("cost", "0");
         startActivity(i);
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Are you sure you want to exit?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Homepage.this.finish();
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 }

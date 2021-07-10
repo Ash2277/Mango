@@ -38,7 +38,7 @@
         />
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/shopname1"
+        android:id="@+id/t1"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="10dp"
@@ -51,12 +51,13 @@
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="10dp"
-        />
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,12 +66,14 @@
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="10dp"
-        />
+
+        <EditText
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,12 +82,14 @@
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="10dp"
-        />
+
+        <EditText
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -93,12 +98,13 @@
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/black"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="10dp"
-        />
+
+        <EditText
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp" />
 
         <Button
             android:id="@+id/button5"
