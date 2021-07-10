@@ -25,7 +25,7 @@ public class ThankYouPage extends AppCompatActivity
 
     public void click()
     {
-        Intent i = new Intent(ThankYouPage.this, Login.class);
+        Intent i = new Intent(ThankYouPage.this, Homepage.class);
         startActivity(i);
         finish();
     }

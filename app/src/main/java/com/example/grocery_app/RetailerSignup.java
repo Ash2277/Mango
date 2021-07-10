@@ -86,6 +86,7 @@ public class RetailerSignup extends AppCompatActivity {
     private void openhomepage() {
         Intent intent = new Intent(this, Homepage.class);
         startActivity(intent);
+        finish();
     }
 
     @Override

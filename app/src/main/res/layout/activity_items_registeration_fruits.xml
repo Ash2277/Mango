@@ -78,7 +78,7 @@
                     android:src="@drawable/apple" />
 
 
-                <TextView
+                <EditText
                     android:id="@+id/textView1t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
@@ -86,8 +86,9 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
+                    android:inputType="number"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView1pr"
@@ -156,16 +157,17 @@
                     android:layout_gravity="right"
                     android:src="@drawable/mango" />
 
-                <TextView
+                <EditText
                     android:id="@+id/textView2t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView2q"
@@ -224,17 +226,18 @@
                     android:layout_gravity="right"
                     android:src="@drawable/orange" />
 
-                <TextView
+                <EditText
                     android:id="@+id/textView3t"
                     android:layout_width="113dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
 
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView3q"
@@ -295,16 +298,17 @@
                     android:layout_gravity="right"
                     android:src="@drawable/melon" />
 
-                <TextView
+                <EditText
                     android:id="@+id/textView4t"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="48dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView4q"
@@ -357,16 +361,17 @@
                     android:src="@drawable/grape" />
 
 
-                <TextView
+                <EditText
                     android:id="@+id/textView5t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView5pr"
@@ -428,16 +433,17 @@
                     android:src="@drawable/pine" />
 
 
-                <TextView
+                <EditText
                     android:id="@+id/textView6t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView6pr"
@@ -499,16 +505,17 @@
                     android:src="@drawable/kiwi" />
 
 
-                <TextView
+                <EditText
                     android:id="@+id/textView7t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView7pr"
@@ -571,16 +578,17 @@
                     android:src="@drawable/banana" />
 
 
-                <TextView
+                <EditText
                     android:id="@+id/textView8t"
                     android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:inputType="number"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="45dp"
                     android:padding="20dp"
                     android:paddingLeft="20dp"
-                    android:text="@string/initial" />
+                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView8pr"
