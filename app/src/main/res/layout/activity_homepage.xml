@@ -61,8 +61,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="242dp"
-        android:layout_height="46dp"
+        android:layout_width="245dp"
+        android:layout_height="63dp"
         android:background="@drawable/button_bg1"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="get registered here!"
@@ -139,7 +139,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
-        android:text="Vegetable Shop Arekere.."
+        android:text="Eden's Fruits and Veg.."
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -155,7 +155,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
-        android:text="edens fruits and vegetables"
+        android:text="Arekere Fruits and vegeta.."
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:backgroundTint="#AC4806"
         android:layout_marginLeft="30dp"
@@ -182,8 +182,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="57dp"
-        android:layout_height="68dp"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.361"
