@@ -1,7 +1,6 @@
 package com.example.grocery_app;
 
 import android.content.Intent;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -25,10 +24,10 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
         cost = getIntent().getExtras().getString("cost");
 
-        String ap = getIntent().getExtras().getString("basmati");
-        String or = getIntent().getExtras().getString("brown");
-        String man = getIntent().getExtras().getString("masuri");
-        String wm = getIntent().getExtras().getString("sanakki");
+        String ap = getIntent().getExtras().getString("masoor");
+        String or = getIntent().getExtras().getString("moong");
+        String man = getIntent().getExtras().getString("toor");
+        String wm = getIntent().getExtras().getString("urud");
 
         tl1 = (TextView) findViewById(R.id.textView7);
         tl2 = (TextView) findViewById(R.id.textView11);
@@ -44,22 +43,22 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
         if (Integer.parseInt(ap) > 0)
         {
-            tl1.setText("Apples");
+            tl1.setText("Masoor Daal (kg)");
             tr1.setText(ap);
         }
         if (Integer.parseInt(or) > 0)
         {
-            tl2.setText("Oranges");
+            tl2.setText("Moong Daal (kg)");
             tr2.setText(or);
         }
         if (Integer.parseInt(man) > 0)
         {
-            tl3.setText("Mangoes");
+            tl3.setText("Toor Daal (kg)");
             tr3.setText(man);
         }
         if (Integer.parseInt(wm) > 0)
         {
-            tl4.setText("Watermelons");
+            tl4.setText("Urud Daal (kg)");
             tr4.setText(wm);
         }
 

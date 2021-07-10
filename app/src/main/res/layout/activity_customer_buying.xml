@@ -320,6 +320,7 @@
                             android:layout_width="211dp"
                             android:layout_height="262dp"
                             android:layout_gravity="right"
+                            android:clickable="true"
                             android:src="@drawable/greens" />
 
                         <TextView
@@ -362,6 +363,7 @@
                             android:layout_width="190dp"
                             android:layout_height="316dp"
                             android:layout_gravity="top"
+                            android:clickable="true"
                             android:src="@drawable/rice" />
                     </androidx.cardview.widget.CardView>
 

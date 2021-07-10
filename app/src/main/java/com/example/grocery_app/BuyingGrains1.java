@@ -61,11 +61,11 @@ public class BuyingGrains1 extends AppCompatActivity
     public void addt1()
     {
         s =(String) t1.getText();
-        if(Integer.parseInt(s) <= 25)
+        if(Integer.parseInt(s) <= 12)
         {
             s = Integer.toString(1 + Integer.parseInt(s));
             t1.setText(s);
-            sp1 = Integer.toString(55 * Integer.parseInt(s));
+            sp1 = Integer.toString(170 * Integer.parseInt(s));
             pr1.setText("Rs. ".concat(sp1));
         }
     }
@@ -73,7 +73,7 @@ public class BuyingGrains1 extends AppCompatActivity
     public void addt2()
     {
         s =(String) t2.getText();
-        if(Integer.parseInt(s) <= 20)
+        if(Integer.parseInt(s) <= 15)
         {
             s = Integer.toString( Integer.parseInt(s) + 1);
             t2.setText(s);
@@ -85,11 +85,11 @@ public class BuyingGrains1 extends AppCompatActivity
     public void addt3()
     {
         s =(String) t3.getText();
-        if(Integer.parseInt(s) <= 12)
+        if(Integer.parseInt(s) <= 17)
         {
             s = Integer.toString(1 + Integer.parseInt(s));
             t3.setText(s);
-            sp3 = Integer.toString(20 * Integer.parseInt(s));
+            sp3 = Integer.toString(224 * Integer.parseInt(s));
             pr3.setText("Rs. ".concat(sp3));
 
         }
@@ -99,11 +99,11 @@ public class BuyingGrains1 extends AppCompatActivity
     public void addt4()
     {
         s =(String) t4.getText();
-        if(Integer.parseInt(s) <= 22)
+        if(Integer.parseInt(s) <= 15)
         {
             s = Integer.toString(1 + Integer.parseInt(s));
             t4.setText(s);
-            sp4 = Integer.toString(80 * Integer.parseInt(s));
+            sp4 = Integer.toString(176 * Integer.parseInt(s));
             pr4.setText("Rs. ".concat(sp4));
         }
 
@@ -116,7 +116,7 @@ public class BuyingGrains1 extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t1.setText(s);
-            sp1 = Integer.toString(55 * Integer.parseInt(s));
+            sp1 = Integer.toString(170 * Integer.parseInt(s));
             pr1.setText("Rs. ".concat(sp1));
         }
     }
@@ -140,7 +140,7 @@ public class BuyingGrains1 extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t3.setText(s);
-            sp3 = Integer.toString(20 * Integer.parseInt(s));
+            sp3 = Integer.toString(224 * Integer.parseInt(s));
             pr3.setText("Rs. ".concat(sp3));
         }
     }
@@ -152,7 +152,7 @@ public class BuyingGrains1 extends AppCompatActivity
         {
             s = Integer.toString( Integer.parseInt(s) - 1);
             t4.setText(s);
-            sp4 = Integer.toString(80 * Integer.parseInt(s));
+            sp4 = Integer.toString(176 * Integer.parseInt(s));
             pr4.setText("Rs. ".concat(sp4));
         }
     }
@@ -170,10 +170,10 @@ public class BuyingGrains1 extends AppCompatActivity
         Intent i = new Intent(BuyingGrains1.this, ContinueWithGrainsOrder.class);
         cost += Integer.parseInt(sp1) + Integer.parseInt(sp2) + Integer.parseInt(sp3) + Integer.parseInt(sp4);
         i.putExtra("cost", Integer.toString(cost));
-        i.putExtra("apples", t1.getText());
-        i.putExtra("mangoes", t2.getText());
-        i.putExtra("oranges", t3.getText());
-        i.putExtra("watermelons", t4.getText());
+        i.putExtra("masoor", t1.getText());
+        i.putExtra("moong", t2.getText());
+        i.putExtra("toor", t3.getText());
+        i.putExtra("urud", t4.getText());
         startActivity(i);
         finish();
     }
