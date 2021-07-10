@@ -43,6 +43,9 @@ package="com">
         android:label="@string/title_activity_details"
         android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name=".example.grocery_app.BuyingFruits1" />
+    <activity android:name=".example.grocery_app.BuyingGrains" />
+    <activity android:name=".example.grocery_app.BuyingRice" />
+    <activity android:name=".example.grocery_app.BuyingGreens" />
     <activity android:name=".example.grocery_app.ContinueWithFruitOrder" />
     <activity android:name=".example.grocery_app.BuyingVegetables" />
     <activity android:name=".example.grocery_app.BuyingFruits2" />
@@ -68,5 +71,4 @@ package="com">
     </activity>
 </application>
 </manifest>
-
 
