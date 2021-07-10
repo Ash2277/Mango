@@ -78,6 +78,8 @@ public class ContinueWithVegetableOrder extends AppCompatActivity
 
     private void proc()
     {
-
+        Intent i = new Intent(ContinueWithVegetableOrder.this, ThankYouPage.class);
+        startActivity(i);
+        finish();
     }
 }

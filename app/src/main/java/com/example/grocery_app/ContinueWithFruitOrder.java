@@ -78,6 +78,8 @@ public class ContinueWithFruitOrder extends AppCompatActivity
 
     private void proc()
     {
-
+        Intent i = new Intent(ContinueWithFruitOrder.this, ThankYouPage.class);
+        startActivity(i);
+        finish();
     }
 }

@@ -78,6 +78,8 @@ public class ContinueWithGrainsOrder extends AppCompatActivity
 
     private void proc()
     {
-
+        Intent i = new Intent(ContinueWithGrainsOrder.this, ThankYouPage.class);
+        startActivity(i);
+        finish();
     }
 }

@@ -78,6 +78,8 @@ public class ContinueWithGreensOrder extends AppCompatActivity
 
     private void proc()
     {
-
+        Intent i = new Intent(ContinueWithGreensOrder.this, ThankYouPage.class);
+        startActivity(i);
+        finish();
     }
 }

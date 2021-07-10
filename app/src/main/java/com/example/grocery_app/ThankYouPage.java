@@ -1,16 +1,33 @@
 package com.example.grocery_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
-import com.R;
+import android.widget.Button;
 
 import com.R;
 
-public class ThankYouPage extends AppCompatActivity {
+import com.R;
 
+public class ThankYouPage extends AppCompatActivity
+{
+    Button b;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thank_you_page);
+
+        b = findViewById(R.id.button7);
+        b.setOnClickListener(v -> click());
     }
+
+    public void click()
+    {
+        Intent i = new Intent(ThankYouPage.this, Login.class);
+        startActivity(i);
+        finish();
+    }
+
 }
