@@ -58,14 +58,14 @@
 
   <Button
       android:id="@+id/button7"
-      android:layout_width="282dp"
-      android:layout_height="50dp"
+      android:layout_width="229dp"
+      android:layout_height="51dp"
       android:backgroundTint="#DD6718"
       android:text="Return To Home"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintHorizontal_bias="0.497"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView22"
-      app:layout_constraintVertical_bias="0.951" />
+      app:layout_constraintVertical_bias="0.51" />
 </androidx.constraintlayout.widget.ConstraintLayout>

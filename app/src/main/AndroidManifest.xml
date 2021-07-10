@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 package="com">
 <uses-permission android:name="android.permission.INTERNET" />
@@ -70,6 +69,7 @@ package="com">
     <activity android:name=".example.grocery_app.ItemsRegisterationFruits" />
     <activity android:name=".example.grocery_app.ItemsRegistrationVeggies" />
     <activity android:name="com.pnuema.android.foursite.mainscreen.ui.MainActivity" />
+    <activity android:name="com.example.grocery_app.Notifications"></activity>
     <activity
         android:name=".example.grocery_app.LogoScreen"
         android:label="@string/app_name"
