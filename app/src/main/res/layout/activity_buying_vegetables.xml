@@ -81,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="@string/initial" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button1p"
@@ -167,7 +167,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="@string/initial" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button2p"
@@ -244,7 +244,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="@string/initial" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button3p"
@@ -324,7 +324,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="@string/initial" />
+                    android:text="0" />
 
                 <Button
                     android:id="@+id/button4p"

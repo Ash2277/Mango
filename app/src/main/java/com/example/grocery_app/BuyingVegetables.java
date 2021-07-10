@@ -19,7 +19,7 @@ public class BuyingVegetables extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buying_fruits);
+        setContentView(R.layout.activity_buying_vegetables);
 
         b1m = findViewById(R.id.button1m);
         b1p = findViewById(R.id.button1p);
