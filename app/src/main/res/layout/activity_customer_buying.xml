@@ -9,31 +9,31 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="185dp"
-        android:layout_height="111dp"
+        android:layout_width="150dp"
+        android:layout_height="131dp"
         android:layout_gravity="center"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="left"
         android:text="Select from the catergorie ."
         android:textColor="#832103"
-        android:textSize="30dp"
+        android:textSize="24sp"
+        android:layout_marginLeft="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.095" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="238dp"
-        android:layout_height="181dp"
+        android:layout_width="231dp"
+        android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.982"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.028"
         app:srcCompat="@drawable/cartvector" />
 
     <androidx.cardview.widget.CardView

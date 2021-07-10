@@ -357,28 +357,28 @@
 
             <ImageView
                 android:id="@+id/button17"
-                android:layout_width="37dp"
-                android:layout_height="32dp"
+                android:layout_width="30dp"
+                android:layout_height="27dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toTopOf="@+id/apples"
                 app:layout_constraintEnd_toStartOf="@+id/textView12"
                 app:layout_constraintHorizontal_bias="0.23"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.678"
+                app:layout_constraintVertical_bias="0.638"
                 app:srcCompat="@drawable/arrowicon" />
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="28dp"
-                android:layout_height="34dp"
+                android:layout_width="24dp"
+                android:layout_height="29dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toTopOf="@+id/apples"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.765"
                 app:layout_constraintStart_toEndOf="@+id/textView12"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.714"
+                app:layout_constraintVertical_bias="0.638"
                 app:srcCompat="@drawable/carticon" />
 
 
