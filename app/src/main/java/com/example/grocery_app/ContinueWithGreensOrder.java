@@ -24,10 +24,10 @@ public class ContinueWithGreensOrder extends AppCompatActivity
 
         cost = getIntent().getExtras().getString("cost");
 
-        String ap = getIntent().getExtras().getString("apples");
-        String or = getIntent().getExtras().getString("oranges");
-        String man = getIntent().getExtras().getString("mangoes");
-        String wm = getIntent().getExtras().getString("watermelons");
+        String ap = getIntent().getExtras().getString("palak");
+        String or = getIntent().getExtras().getString("coriander");
+        String man = getIntent().getExtras().getString("kale");
+        String wm = getIntent().getExtras().getString("curry");
 
         tl1 = (TextView) findViewById(R.id.textView7);
         tl2 = (TextView) findViewById(R.id.textView11);
@@ -43,22 +43,22 @@ public class ContinueWithGreensOrder extends AppCompatActivity
 
         if (Integer.parseInt(ap) > 0)
         {
-            tl1.setText("Apples");
+            tl1.setText("Palak (100g)");
             tr1.setText(ap);
         }
         if (Integer.parseInt(or) > 0)
         {
-            tl2.setText("Oranges");
+            tl2.setText("Coriander (100g)");
             tr2.setText(or);
         }
         if (Integer.parseInt(man) > 0)
         {
-            tl3.setText("Mangoes");
+            tl3.setText("Kale (100g)");
             tr3.setText(man);
         }
         if (Integer.parseInt(wm) > 0)
         {
-            tl4.setText("Watermelons");
+            tl4.setText("Curry Leaves (100g)");
             tr4.setText(wm);
         }
 
