@@ -42,6 +42,7 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".example.grocery_app.BuyingFruits1"/>
         <activity android:name=".example.grocery_app.ContinueWithFruitOrder"/>
+        <activity android:name=".example.grocery_app.BuyingVegetables"/>
         <activity android:name=".example.grocery_app.BuyingFruits2"/>
         <activity android:name=".example.grocery_app.BuyingFruits3"/>
         <activity android:name=".example.grocery_app.CustomerBuying1" />
